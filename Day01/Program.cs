@@ -6,3 +6,5 @@ int Add(int a, int b) => a + b;
 Console.WriteLine($"3 + 5 = {Add(3, 5)}");
 int Subtract(int a, int b) => a - b;
 Console.WriteLine($"9 - 4 = {Subtract(9, 4)}");
+int Multiply(int a, int b) => a * b;
+Console.WriteLine($"6 * 3 = {Multiply(6, 3)}");
